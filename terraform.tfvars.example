@@ -1,0 +1,10 @@
+# Copy this file to terraform.tfvars and replace every placeholder.
+# Never commit terraform.tfvars or private key files to GitHub.
+
+aws_region      = "ap-south-1"
+name_prefix     = "windows-cloud-security-vm"
+instance_type   = "t3.medium"
+admin_public_ip = "REPLACE_WITH_YOUR_PUBLIC_IPV4"
+key_pair_name   = "REPLACE_WITH_EXISTING_EC2_KEY_PAIR_NAME"
+vpc_id          = "vpc-REPLACE_ME"
+subnet_id       = "subnet-REPLACE_ME"
